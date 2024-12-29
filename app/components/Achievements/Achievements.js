@@ -6,7 +6,7 @@ import { useState } from 'react';
 export default function Achievements() {
   const [currentImage, setCurrentImage] = useState(0);
   const images = [
-    '/images/achievement1.jpeg',
+    '/images/achievement1.jpg',
     '/images/achievement2.jpg',
     '/images/achievement3.jpg',
   ];
