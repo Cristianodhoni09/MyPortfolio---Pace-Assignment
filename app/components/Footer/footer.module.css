@@ -1,0 +1,21 @@
+.footer {
+    padding: 2rem;
+    background: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .links {
+    margin-top: 1rem;
+  }
+  
+  .links a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  

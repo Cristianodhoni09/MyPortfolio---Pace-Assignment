@@ -1,0 +1,47 @@
+/* skills.module.css */
+.skills {
+  padding: 2rem;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  padding: 0.8rem 1.5rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #0056b3;
+}
+
+.list {
+  margin-top: 2rem;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.bar {
+  width: 100%;
+  background: #e0e0e0;
+  border-radius: 0.25rem;
+  margin-left: 1rem;
+  height: 10px;
+  position: relative;
+}
+
+.bar div {
+  background: #007bff;
+  height: 100%;
+  border-radius: 0.25rem;
+}
