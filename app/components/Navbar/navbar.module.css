@@ -1,10 +1,19 @@
-/* navbar.module.css */
 .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
   background-color: #333;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.navbar.scrolled {
+  background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent background */
+  backdrop-filter: blur(5px); /* Optional: Adds a subtle blur effect */
 }
 
 .brand {
@@ -17,6 +26,7 @@
   color: white;
   margin: 0 10px;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .links a:hover {
